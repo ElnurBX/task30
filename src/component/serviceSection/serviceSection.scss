@@ -1,0 +1,56 @@
+.ServiceSection{
+    padding: 130px 0 0;
+    background-color: #02050a;
+
+    h5{
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #55e6a5;
+    }
+    h2{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 1.3;
+        color: #ffffff;
+    }
+    &__cards{
+        margin-top:40px;
+        display: flex;
+        justify-content: space-between;
+        &__card{
+            padding: 0 40px 40px;
+            margin-top: 62px;
+            text-align: center;
+            border: 3px solid #191919;
+            h3{
+                color: #ffffff  ;
+                font-size: 20px;
+                font-weight: 500;
+                text-align: center;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+            p{
+                text-align: center;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 28px;
+                color: #a2a2a2;
+            }
+            span{
+                position: relative;
+                top:-60px; 
+                z-index: 0;
+            }
+        }
+        .col-4{
+            margin: 0 12px;
+
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.deseginSection{
+    padding: 130px 0 130px;
+    background-color: #02050a;
+    color: #fff;
+
+    h2{
+        font-size: 128px;
+        font-weight: 600;
+        line-height: 60px;
+        margin-bottom:40px ;
+        span{
+            font-size: 60px;
+            font-weight: 600;
+            line-height: unset;
+            margin-left:10px ;
+        }
+    }
+    p{
+        color: #a2a2a2;
+    }
+    &__cards{
+        display: flex;  
+        margin-top: 40px;
+        justify-content: space-between;
+        &__card{
+            margin: 16px;
+            width: 50%;
+            background: #09101a;
+            padding: 25px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h3{
+                font-size: 40px;
+                font-weight: 700;
+            
+            }
+            p{
+                font-size: 18px;
+                color: #fff;
+            }
+        }
+    }
+    &__form{
+        padding: 60px;
+        background: #09101a;
+        form{
+            display: flex;
+            flex-direction: column;
+            input,textarea{
+                margin-top: 30px;
+                background: none;
+                border: 1px solid #55e6a5;
+                padding: 22px 20px;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 500;
+            }
+            button{
+                width: 50%;
+                margin-top: 30px;
+                background: none;
+                padding: 22px 20px;
+                font-size: 16px;
+                font-weight: 500;
+                border: 0;
+                background-color: #55e6a5;
+            }
+        }
+    }
+}

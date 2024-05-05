@@ -1,0 +1,113 @@
+.Banner1{
+    overflow: hidden;
+    position: relative;
+    z-index: -1;    
+    background-image: url(https://zyan.vercel.app/images/bg/banner.jpg  );
+    padding: 224px 0 224px 0;
+    height: 100vh;
+    background-position:top center ;
+    background-size: cover;
+    h2{
+        color: #FFF;
+        font-size: 60px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.2;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    p{
+        color:#c2c2c2;
+    }
+    &__left_bottom{
+        margin-top: 60px;
+        display: flex;
+        color: #FFF;
+        gap: 30px;
+        button{
+            padding: 20px;
+            border: 0;
+            background-color: #55e6a5;  
+        }
+        a{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            i{
+                color: #000;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                background: #55e6a5;
+                font-size: 30px;
+                line-height: 50px;
+            }
+        }
+    }
+    &__img{
+        position: relative;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &::after{
+            content: "";
+            position: absolute;
+            width: 95.9%;
+            height: 120%;
+            background-image: url(https://zyan.vercel.app/images/shapes/banner_shape.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            animation: bannerimg 2s infinite;
+        }
+        @keyframes bannerimg {
+            0%{
+                top: -40px;
+            }
+            50%{
+                top: -45px;
+            }
+            100%{
+                top:-40px;
+            }
+        }
+    }
+}
+.job-container{
+    font-size: 60px; 
+    color: #55e6a5;
+    position: relative;
+    height: 60px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.current-job{
+    position: absolute;    
+    animation-delay: 2s;
+    animation: cd-rotate-1-out 0.8s;
+}
+
+
+@keyframes cd-rotate-1-out {
+    0% {
+        -webkit-transform: rotateX(180deg);
+        opacity: 0
+    } 
+    40% {
+        opacity: 0.5
+    }
+     
+    80% {
+        -webkit-transform: rotateX(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: rotateX(-40deg);
+        opacity: 1
+    }
+}

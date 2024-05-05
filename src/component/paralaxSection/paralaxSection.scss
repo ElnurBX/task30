@@ -1,0 +1,46 @@
+.paralaxSection{
+    padding:130px 0;
+    background-image:linear-gradient(90deg,#000000cf,#000000df), url(https://zyan.vercel.app/images/bg/subscribe.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:  center;
+    background-repeat: no-repeat;
+    color: #fff;
+    .container{
+        height: 150px;
+        text-align: center;
+        h3{
+            text-align: center;
+            font-size: 30px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 35px;
+            text-transform: uppercase;
+        }
+        form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            margin: auto;
+            width: 50%;
+            input{
+                width: 100%;
+                border: 1px solid #55e6a5;
+                padding: 27px 25px;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 500;
+                background: #131313;
+            }
+            button{
+                padding: 25px;
+                margin: 5px;
+                right: 0;
+                border: 0;
+                position: absolute;
+                background-color: #55e6a5;
+            }
+        }
+    }
+}

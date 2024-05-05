@@ -1,0 +1,20 @@
+.brand{
+    padding: 25px 0 30px;
+    height: 210px;
+    background-color: #55e6a5;
+    display: flex;
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-fill-color: transparent;
+    font-size: 110px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 20px;
+    overflow: hidden;
+    div{
+        margin: 10px;
+    }
+    .brand-text {
+        display: inline-block;
+        
+    }
+}
